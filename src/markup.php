@@ -177,7 +177,7 @@ class MarkUp {
 					<span class='ep-text-styling-group'>
 						<a class = 'ep-text-height-up'><i class='fa fa-sort-asc'></i></a>
 						<a class = 'ep-text-height-down'><i class='fa fa-sort-desc'></i></a>
-					</div>
+					</span>
 				</div>
 			</div>
 			<?php
