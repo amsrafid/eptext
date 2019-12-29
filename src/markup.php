@@ -1,5 +1,17 @@
 <?php
 
+/**
+ * 
+ * ePHP v1.0.0 mini (Framework/Library)
+ * Copyright 2017 amsrafid.
+ * Licensed under A. M. Sadman Rafid (amsrafid.com)
+ * 
+ * GitHub: https://github.com/amsrafid
+ * 
+ * Part of Markup Generate
+ * 
+ * **/
+
 class MarkUp {
 
 	/**
@@ -161,7 +173,7 @@ class MarkUp {
 				<iframe class = 'ep-text-editor<?php echo $cls; ?>' id = "<?php echo "ep_text_" .$id."_editor"; ?>" frameborder='1'></iframe>
 					<!-- /End Main Editing Area -->
 
-				<div class='ep-text-styling ep-text-size'>	<!-- Textarea sizing -->
+				<div class='ep-text-size'>	<!-- Textarea sizing -->
 					<span class='ep-text-styling-group'>
 						<a class = 'ep-text-height-up'><i class='fa fa-sort-asc'></i></a>
 						<a class = 'ep-text-height-down'><i class='fa fa-sort-desc'></i></a>

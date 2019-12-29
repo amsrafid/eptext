@@ -1,7 +1,3 @@
-$(document).ready(function (){
-		$(".rich_text_box").RichTextBox();
-});
-	
 (function (){
 	
 	$.fn.RichTextBox = function ( options ) {

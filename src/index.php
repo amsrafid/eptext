@@ -22,6 +22,11 @@
   integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
   crossorigin="anonymous"></script>
 	<script src="script.js"></script>
+	<script>
+		$(document).ready(function (){
+			$(".rich_text_box").RichTextBox();
+		});
+	</script>
 </body>
 </html>
 

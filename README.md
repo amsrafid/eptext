@@ -1,7 +1,7 @@
 ## EP TEXT
-jQuery Rich Text Box
+Simple jQuery Rich Text Box used into any php project but specially develped for **easyPHP** php Library developed with amsrafid.
 
-## Use
+## How to Use?
 
 ```
 	<!-- style -->
@@ -11,10 +11,19 @@ jQuery Rich Text Box
 	<?php
 		require_once 'markup.php';
 		
-		MarkUp::richText([ 'id' => 'id', 'cls => 'class', 'galery' => funcion (){} ]);
+		MarkUp::richText([ 'id' => 'id', 'cls => 'class' ]);
 	?>
 
 	<!-- Script -->
 		//jQuery
 		//script.js
+
+	<script>
+		$(document).ready(function (){
+			$(".class").RichTextBox();
+		});
+	<script>
 ```
+
+## Note
+Change it with your own view.
