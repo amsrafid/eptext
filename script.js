@@ -56,7 +56,6 @@ $(document).ready(function (){
 
 		}, 1 );
 
-
 		function commandExec ( cmd, option = null ) {
 			let action = document.getElementById(editor.attr('id')).contentWindow.document;
 
